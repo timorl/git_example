@@ -2,7 +2,7 @@
 #include<vector>
 
 void say(std::string message) {
-	std::cout << message;
+	std::cout << message << std::endl;
 }
 
 int ask(std::string question, std::vector<std::string> answers) {

@@ -58,14 +58,13 @@ int main() {
 	Bakery theBakery;
 	say("Welcome to the bakery, friend!");
 	std::vector<std::string> yesOrNo;
-	yesOrNo.push_back("Yes");
-	yesOrNo.push_back("No");
+	yesOrNo.push_back("Yay");
+	yesOrNo.push_back("Nay");
 	std::vector<std::string> sizes;
 	sizes.push_back("Tiny (10cm)");
 	sizes.push_back("Small (20cm)");
 	sizes.push_back("Standard (30cm)");
 	sizes.push_back("Big (40cm)");
-	sizes.push_back("Huge (50cm)");
 	std::vector<std::string> cakeActions;
 	cakeActions.push_back("Look at.");
 	cakeActions.push_back("Eat!");

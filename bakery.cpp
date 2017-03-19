@@ -67,7 +67,6 @@ int main() {
 	sizes.push_back("Standard (30cm)");
 	sizes.push_back("Big (40cm)");
 	sizes.push_back("Huge (50cm)");
-	sizes.push_back("X-Treme (60cm)");
 	std::vector<std::string> cakeActions;
 	cakeActions.push_back("Admire...");
 	cakeActions.push_back("Eat!");

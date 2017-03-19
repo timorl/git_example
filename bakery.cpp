@@ -38,7 +38,7 @@ class Cake {
 
 	private:
 		int area() {
-			return width*width;
+			return width*length;
 		}
 
 		int width;

@@ -47,9 +47,9 @@ class Cake {
 
 class Bakery {
 	public:
-		Cake * bake(int edge) {
+		Cake * bake(int width, int length) {
 			say("Baking a cake!");
-			return new Cake(edge, edge);
+			return new Cake(width, length);
 		}
 };
 
@@ -74,8 +74,9 @@ int main() {
 			say("Bye then!");
 			return 0;
 		}
-		int size = ask("What size?", sizes) * 10;
-		Cake * theCake = theBakery.bake(size);
+		int width = ask("What width?", sizes) * 10;
+		int length = ask("What length?", sizes) * 10;
+		Cake * theCake = theBakery.bake(width, length);
 		while (theCake) {
 			int answer = ask("What do you want to do with the cake?", cakeActions);
 			if ( answer == 1 ) {

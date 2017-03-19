@@ -39,7 +39,6 @@ class Cake {
 	private:
 		int area() {
 			int result = width*length;
-			std::cout << "Measured " << result << " square centimeters..." << std::endl;
 			return result;
 		}
 

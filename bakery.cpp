@@ -55,7 +55,7 @@ class Bakery {
 
 int main() {
 	Bakery theBakery;
-	say("Welcome to the bakery!");
+	say("Welcome to the bakery, friend!");
 	std::vector<std::string> yesOrNo;
 	yesOrNo.push_back("Yes");
 	yesOrNo.push_back("No");

@@ -38,7 +38,9 @@ class Cake {
 
 	private:
 		int area() {
-			return width*length;
+			int result = width*length;
+			std::cout << "Measured " << result << " square centimeters..." << std::endl;
+			return result;
 		}
 
 		int width;
@@ -48,7 +50,7 @@ class Cake {
 class Bakery {
 	public:
 		Cake * bake(int width, int length) {
-			say("Baking a cake!");
+			std::cout << "Baking a cake with length " << length << " centimeters, and width " << width << " centimeters!" << std::endl;
 			return new Cake(width, length);
 		}
 };

@@ -68,7 +68,7 @@ int main() {
 	sizes.push_back("Big (40cm)");
 	sizes.push_back("Huge (50cm)");
 	std::vector<std::string> cakeActions;
-	cakeActions.push_back("Admire...");
+	cakeActions.push_back("Look at.");
 	cakeActions.push_back("Eat!");
 	while (true) {
 		if (ask("Do you want a cake?", yesOrNo) == 2) {
